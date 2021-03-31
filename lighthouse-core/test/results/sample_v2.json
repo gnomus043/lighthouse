@@ -5648,8 +5648,7 @@
         },
         {
           "id": "structured-data",
-          "weight": 1,
-          "group": "seo-content"
+          "weight": 1
         }
       ],
       "id": "seo",

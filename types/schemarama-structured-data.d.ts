@@ -69,7 +69,7 @@ declare global {
 
       export type LocalizedAnnotations = {
         [uuid: string]: LocalizedAnnotation,
-      }
+      };
 
       export type LocalizedMessages = {
         severity: {

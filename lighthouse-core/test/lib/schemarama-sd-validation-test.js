@@ -11,7 +11,7 @@ const assert = require('assert').strict;
 const ShexValidator = require('../../lib/schemarama-sd-validation/validator.js').Validator;
 const localization = require('../../lib/schemarama-sd-validation/helpers/localization.js');
 
-const localizedAnnotations = {};
+const localizedAnnotations = localization.getAnnotations();
 const localizedMessages = localization.getMessages();
 
 describe('ShEx validation', () => {

@@ -594,7 +594,7 @@ const defaultConfig = {
         {id: 'font-size', weight: 1, group: 'seo-mobile'},
         {id: 'plugins', weight: 1, group: 'seo-content'},
         {id: 'tap-targets', weight: 1, group: 'seo-mobile'},
-        {id: 'structured-data', weight: 1}
+        {id: 'structured-data', weight: 1},
       ],
     },
     'pwa': {

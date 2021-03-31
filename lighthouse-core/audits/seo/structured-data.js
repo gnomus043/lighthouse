@@ -38,7 +38,7 @@ class StructuredData extends Audit {
 
   /**
    * Reformat validation failures array to Lighthouse table form
-   * @param {Array<LH.StructuredData.Failure>} report
+   * @param {Array<LH.SchemaramaStructuredData.Failure>} report
    * @returns {*}
    */
   static reportToTable(report) {
@@ -86,7 +86,7 @@ class StructuredData extends Audit {
    */
   static async audit(artifacts) {
     const data = [];
-    /** @type {Array<LH.StructuredData.Failure>} */
+    /** @type {Array<LH.SchemaramaStructuredData.Failure>} */
     const report = [];
     for (const scriptElement of artifacts.ScriptElements) {
       if (scriptElement.type === 'application/ld+json' && scriptElement.content) {

@@ -463,7 +463,7 @@ Object {
       "path": "seo/canonical",
     },
     Object {
-      "path": "seo/schemarama-structured-data",
+      "path": "seo/structured-data",
     },
   ],
   "categories": Object {
@@ -1244,7 +1244,6 @@ Object {
           "weight": 1,
         },
         Object {
-          "group": "seo-content",
           "id": "structured-data",
           "weight": 1,
         },
